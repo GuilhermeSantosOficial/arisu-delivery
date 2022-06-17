@@ -26,6 +26,7 @@ p{
     align-items: center;
     background: url('../images/bg.jpg');
     background-size: cover;
+    background-attachment: fixed;
     
 }
 
@@ -46,8 +47,8 @@ p{
 
 .btn{
     font-size: 1em;
-    color: #fff;
-    background: #e01414;
+    color: #000;
+    background: #94c4b8;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -88,7 +89,7 @@ header .logo img{
     text-decoration: none; */
     
     width: 90px;
-    height: 60px;
+    height: 70px;
     
 }
 
@@ -121,7 +122,7 @@ header.sticky .navigation li a{
 }
 
 header .navigation li a:hover{
-    color: #e01414;
+    color: #94c4b8;
 }
 
 section{
@@ -147,7 +148,7 @@ section{
 }
 
 .titleText span{
-    color: #e01414;
+    color: #94c4b8;
     font-weight: 700;
     font-size: 1.5em;
 }
@@ -179,6 +180,13 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#menu{
+    background-image: url("../images/bg2-o.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menu .content{
@@ -213,6 +221,7 @@ section{
 
 .menu .content .box .text{
     padding: 15px 0 5px;
+    background-color: white;
 }
 
 .menu .content .box .text h3{
@@ -260,6 +269,7 @@ section{
 .testimonials{
     background: url(../images/bg2.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .white .titleText,
@@ -317,13 +327,14 @@ section{
     margin-top: 20px;
     color: #111;
     font-size: 1em;
-    color: #e01414;
+    color: #94c4b8;
     font-weight: 600;
 }
 
 .contact{
     background: url('../images/bg3.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .contactForm{
