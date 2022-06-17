@@ -229,6 +229,10 @@ section{
     color: #111;
 }
 
+a.tdn{
+    text-decoration: none;
+}
+
 .expert .content{
     display: flex;
     justify-content: center;
@@ -327,7 +331,7 @@ section{
     margin-top: 20px;
     color: #111;
     font-size: 1em;
-    color: #94c4b8;
+    color: #658f85;
     font-weight: 600;
 }
 
