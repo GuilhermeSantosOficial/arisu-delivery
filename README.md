@@ -1,2 +1,2 @@
-# arisu-delivey
+# arisu-delivery
  Arisu - culinária japonesa
